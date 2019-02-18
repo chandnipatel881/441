@@ -41,7 +41,7 @@ public class HashMapTest {
         hashmap.put(32,"kyu");
         hashmap.put(33,"kyu");
 
-
+        hashmap.put(null,null);
 
 
 

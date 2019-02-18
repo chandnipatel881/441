@@ -37,6 +37,9 @@ public class HashMap<K,V> {
     }
 
     public int getIndex(K key){
+        if(key == null){
+            return 0;
+        }
         return key.hashCode()%bucketArray.length;
     }
 
